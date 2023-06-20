@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* banner styes */
+.banner{
+    background-image: url("../new-year-website/images/banner3.png"); 
+    width: 100%;
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .banner-box{
+    text-align: right;
+    margin-left: 700px;
+    padding-top: 160px;
+}
+.banner .banner-box .banner-title{
+    width: 510px;
+    height: 78px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFFFFF;
+    margin-bottom: 145px;
+}
+.banner .banner-box .banner-description{
+    width: 510px;
+    height: 78px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+.banner .banner-box a{
+    text-decoration: none;      
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 19px 25px 19px 25px;
+    margin-right: 156px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #005FAC;
+}
+/* about styles */
+.about{
+    margin-top: 130px;
+}
+.about .about-section{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.about .about-section .images img{
+    margin-left: 150px;
+}
+.about .about-box .about-title{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    width: 288px;
+    height: 94px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+.about .about-box{
+    margin-top: 65px;
+}
+.about .about-box .about-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #444343;
+    width: 360px;
+    height: 100px;
+}
+.about .about-box .about-check{
+    width: 350px;
+    height: 25px;
+    font-size: 14px;
+}
+.about .about-box .about-check .check{
+    color: #00C5FF;
+    font-weight: bold;
+    margin-right: 5px;
+}
+/* plans css styles */
+.plans{
+    margin-top: 120px;
+}
+.plans .plans-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.plans .plans-box{
+    display: flex;
+    margin-left: 280px;
+    gap: 85px;
+}
+.plans .plans-box img{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.plans .plans-box .plans-box-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.plans .plans-box h5{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #737272;
+    margin-bottom: 110px;
+}
+/* banner two code */
+.banner-two{
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('images/watch.png');
+    border-radius: 8px;
+}
+.banner-two .banner-two-box {
+    padding: 59px 617px 59px 64px;
+}
+.banner-two .banner-two-box .banner-two-title{
+    color: #FFFFFF;
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 500px;
+    height: 100px;
+}
+.banner-two .banner-two-box a{
+    text-decoration: none;      
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 16px 20px 16px 20px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #005FAC;
+}
+/* footer styles */
+.footer-container{
+    background: #005FAC;
+    margin-top: 120px;
+    width: 100%;
+    height: 400px;
+}
+.footer-container .footer-box{
+    display: flex;
+    gap: 330px;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+.footer-container .footer-box .footer-box1{
+    width: 485px;
+}
+.footer-container .footer-box .footer-box1 .footer-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px
+}
+.footer-container .footer-box .footer-box1 img{
+    margin-right: 5px;
+    width: 30px;
+}
+.footer-container .footer-box .footer-box1 .footer-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.footer-container .footer-box .footer-box1 .email{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-container .footer-box .footer-box1 .phone{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer-container .footer-box .footer-box2 .footer-title1 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-container .footer-box .footer-box2 input {
+    padding: 10px 35px 10px 10px;
+    border-radius: 5px;margin-bottom: 15px;
+}
+.footer-container .footer-box .footer-box2 .subscribe{
+    display: block;
+    text-decoration: none;      
+    background: #FFFFFF;
+    color: #005FAC;
+    width: 100px;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
